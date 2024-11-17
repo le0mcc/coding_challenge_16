@@ -5,7 +5,7 @@ function ProductList({productList}) {
     const listOfProducts = productList.map(product =>
         <ProductItem product={product} key={product.id}/>
     );
-    // Reder Product Items
+    // Render Product Items
     return (
     <>
         <ul>{listOfProducts}</ul>

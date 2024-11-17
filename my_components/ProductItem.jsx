@@ -1,3 +1,4 @@
+// Define ProductItem Component and Use Product Data
 function ProductItem({product}) {
     return (
         <>
