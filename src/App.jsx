@@ -25,7 +25,7 @@ function App() {
     ])
   };
   // Return JSX to Render Product List and Form
-  // Pass productList and addItem as Props
+  // Task 7: Pass Data Between Components
   return (
     <>
       <ProductList productList={productList}/>
